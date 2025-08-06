@@ -42,16 +42,16 @@ npm install
 
 ### สิ่งที่ต้องส่งมอบ:
 
-- Source code ของ Test Automation Framework และ Test Script
+- Source code ของ Test Automation Framework และ Test Script<br>
   `สามารถดูได้ที่ไฟล์ add-product-to-cart.spec.ts ซึ่งอยู่ภายใต้โฟลเดอร์ ui-tests`
-- คําแนะนําสั้นๆ เกี่ยวกับวิธีการรันสคริปต์
+- คําแนะนําสั้นๆ เกี่ยวกับวิธีการรันสคริปต์<br>
   `รันโดยใช้คำสั่ง`
   ```sh
   npm run ui-tests
   ```
   `หลังรันเสร็จจะมีคำสั่งสำหรับการดู test report แสดงขึ้นมา สามารถรัน command ดังกล่าวเพื่อดู test report ได้`
-- รายงานผลการทดสอบ (Test Report)
-  ภาพรวมผลการดำเนินการทดสอบทั้ง 3 browsers
+- รายงานผลการทดสอบ (Test Report)<br>
+  `ภาพรวมผลการดำเนินการทดสอบทั้ง 3 browsers`
   ![ภาพรวมผลการดำเนินการทดสอบทั้ง 3 browsers](./test-reports/images/ui-tests/test-report-overview.png)
-  รายละเอียดขั้นตอนการดำเนินการทดสอบ
+  `รายละเอียดขั้นตอนการดำเนินการทดสอบ`
   ![รายละเอียดขั้นตอนการดำเนินการทดสอบ](./test-reports/images/ui-tests/test-steps-in-chrome-browser.png)
