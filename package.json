@@ -1,0 +1,24 @@
+{
+  "name": "ui-and-api-tests-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui-tests": "ENV=ui-tests npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-wlb:patarapong2629-wlb-biz/ui-and-api-tests-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
