@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ui-tests": "ENV=ui-tests npx playwright test"
+    "ui-tests": "ENV=ui-tests npx playwright test --project=chromium --project=firefox --project=webkit",
+    "api-tests": "ENV=api-tests npx playwright test --project=api"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
     "@playwright/test": "^1.54.2",
     "@types/node": "^24.2.0"
   },
