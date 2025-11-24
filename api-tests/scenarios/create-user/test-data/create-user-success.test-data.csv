@@ -1,0 +1,3 @@
+username,firstName,lastName,email,password,phone,userStatus
+petch_wlb,Petch,WLB,petch.wlb@example.com,securePass123,123-456-7890,1
+john_skb,Petch,SKB,john.slb@example.com,anotherPass456,987-654-3210,1

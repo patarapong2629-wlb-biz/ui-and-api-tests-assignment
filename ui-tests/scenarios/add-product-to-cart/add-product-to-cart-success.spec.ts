@@ -1,4 +1,4 @@
-import { test } from "../../pageObjectModels";
+import { test } from "../../page-object-models";
 import testData from "./test-data/add-product-to-cart-success.test-data.json";
 
 test.describe("Add product to cart success", () => {

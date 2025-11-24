@@ -6,7 +6,8 @@
   "scripts": {
     "ui-tests": "ENV=ui-tests npx playwright test --project=chromium --project=firefox --project=webkit",
     "ui-tests:add-product-to-cart": "ENV=ui-tests npx playwright test ui-tests/scenarios/add-product-to-cart --project=chromium --project=firefox --project=webkit",
-    "api-tests": "ENV=api-tests npx playwright test --project=api"
+    "api-tests": "ENV=api-tests npx playwright test --project=api",
+    "api-tests:create-user": "ENV=api-tests npx playwright test api-tests/scenarios/create-user --project=chromium"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "@types/node": "^24.2.0"
   },
   "dependencies": {
+    "csv-parse": "^6.1.0",
     "dotenv": "^17.2.1"
   }
 }
